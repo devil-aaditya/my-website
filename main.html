@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aaditya | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<nav class="navbar">
+  <div class="logo">Aaditya.</div>
+  <ul class="nav-links">
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><button class="toggle" onclick="toggleTheme()">🌙</button></li>
+  </ul>
+  <div class="menu" onclick="toggleMenu()">☰</div>
+</nav>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section fade-in">
+  <h2>My Work</h2>
+  <div class="cards">
+    <img src="images/Cristmas Post.jpg" class="work">
+    <img src="images/Happy new Year 2026.jpg" class="work">
+    <img src="images/bmw m5.jpg" class="work">
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section dark fade-in">
+  <h2>Services</h2>
+  <div class="services">
+    <div class="service">🎨 Logo & Branding</div>
+    <div class="service">📱 Social Media Designs</div>
+    <div class="service">📢 Posters & Ads</div>
+    <div class="service">🔴 Youtube Thumbnail</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section fade-in">
+  <h2>Contact Me</h2>
+
+  <!-- FORM (EMAIL WORKING) -->
+  <form action="https://formspree.io/f/xbjnzqrr" method="POST" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+
+  <p>📧 aaditya.alpha@gmail.com</p>
+  <p>📸 Instagram: @devil_aadi246</p>
+  <p>𝑾𝒉𝒂𝒕𝒔𝑨pp: 9812014708</p>
+</section>
+
+<footer>© 2026 Aaditya Kumar Mandal</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
